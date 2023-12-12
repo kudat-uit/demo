@@ -1,0 +1,31 @@
+@import 'variables';
+
+body {
+  background-image: url('../public/img/background/background.jpg');
+}
+
+h1 {
+  color: $red-color;
+}
+
+.test {
+  font-size: 1rem;
+}
+
+.card-course-item {
+  margin-top: 16px;
+}
+
+.navbar {
+  ul.menu {
+    list-style: none;
+
+    li {
+      padding: 5px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
